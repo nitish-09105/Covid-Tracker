@@ -1,0 +1,84 @@
+
+h4,h2{
+    text-align: center;
+    color: white;
+    
+}
+h4 .dot{
+    color: red;    
+    font-size: 20px;
+    padding: 2px;
+}
+
+.card__main{
+
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 10vh;
+    background: rgb(16,14,47);
+background: linear-gradient(45deg, rgba(16,14,47,1) 0%, rgba(233,74,74,1) 63%, rgba(0,212,255,1) 100%);
+}
+.card__main:hover{
+    transition: all 0.3s;
+    transform: scale(1.05);
+    
+}
+
+.card{
+    padding: 1px;
+    color: white;
+    
+}
+ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 15vh;
+    text-align: center;
+    
+}
+.card__inner{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    
+}
+.card__name span{
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 8px;
+}
+.card__name{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+
+    margin: 5px;
+}
+.card__total{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+
+}
+section{
+    min-height: 92.94vh;
+}
